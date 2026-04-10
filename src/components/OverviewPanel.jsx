@@ -37,8 +37,8 @@ export default function OverviewPanel({ onSelectView }) {
             them so the project is usable, reviewable, and ready to validate.
           </p>
           <div className="hero-actions">
-            <button className="primary-button" onClick={() => onSelectView("journal")}>
-              Open journal workspace
+            <button className="primary-button" onClick={() => onSelectView("execute")}>
+              Start trading
             </button>
             <button className="secondary-button" onClick={() => onSelectView("rules")}>
               Read system rules
