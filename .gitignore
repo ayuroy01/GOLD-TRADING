@@ -1,4 +1,61 @@
-node_modules
-dist
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# ===========================
+# Node / Frontend
+# ===========================
+node_modules/
+frontend/dist/
+.vite/
+
+# ===========================
+# Runtime data
+# ===========================
+# Ignore contents of backend/data/ but keep the directory
+backend/data/*
+!backend/data/.gitkeep
+
+# ===========================
+# IDE / OS
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
 .DS_Store
-coverage
+Thumbs.db
+
+# ===========================
+# Environment / Secrets
+# ===========================
+.env
+.env.*
+.env.local
+.env.*.local
+
+# ===========================
+# Logs
+# ===========================
+*.log
+
+# ===========================
+# Misc
+# ===========================
+tmp/
+temp/
+coverage/
